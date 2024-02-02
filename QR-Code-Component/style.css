@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.main {
+    width: 200px;
+    height: 350px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr {
+    object-fit: contain;
+}
+
+.main-text {
+    font-weight: 700;
+}
+
+.sub-text {
+    font-weight: 400;
+}
